@@ -1,7 +1,13 @@
+/**
+ * File - 0-putchar.c
+ *
+ */
+
 #include "main.h"
 
 /**
- * main - Prints _putchar
+ * main - Prints _putchar followed by a new line.
+ * Description - Prints _putchar followed by a new line
  *
  * return - Always 0 (success)
  */
