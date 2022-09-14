@@ -1,15 +1,9 @@
-/**
- * File : 0-putchar.c
- * Auth : Jack Mtembete
- */
-
 #include "main.h"
 
 /**
  * main - Prints _putchar followed by a new line.
- * Description - Prints _putchar followed by a new line
  *
- * return : Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
