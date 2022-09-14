@@ -1,8 +1,3 @@
-/**
- * File : 1-alphabet.c
- * Auth : Jack Mtembete
- */
-
 #include "main.h"
 
 /**
