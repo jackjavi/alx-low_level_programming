@@ -1,8 +1,3 @@
-/**
- * File : 3-islower.c
- * Auth : Jack Mtembete
- */
-
 #include "main.h"
 
 /**
