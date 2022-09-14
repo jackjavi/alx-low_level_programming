@@ -2,9 +2,9 @@
 
 /**
  * print_sign - A function that prints the sign of a number.
- * @n - The number to be checked if positive or negative.
+ * @n: The number to be checked if positive or negative.
  *
- * Return - Return 1 if positive, 0 if zero and -1 if negative.
+ * Return: Return 1 if positive, 0 if zero and -1 if negative.
  */
 int print_sign(int n)
 {
