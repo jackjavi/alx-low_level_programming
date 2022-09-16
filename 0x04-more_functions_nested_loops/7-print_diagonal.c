@@ -6,21 +6,21 @@
  */
 void print_diagonal(int n)
 {
-	int len = 0, space;
+	int len, space;
 
-	while (len < n)
+	if (n > 0)
 	{
-		if (n > 0)
+		for (len = 0; len < n; len++)
 		{
 			for (space = 0; space < len; space++)
-			{
 				_putchar(' ');
-			}
-
 			_putchar('\\');
-		}
 
-		_putchar('\n');
-		len++;
+			if (len == n - 1)
+				continue;
+			_putchar('\n');
+		}
 	}
+
+	_putchar('\n');
 }
