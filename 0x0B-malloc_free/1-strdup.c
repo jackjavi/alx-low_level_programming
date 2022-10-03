@@ -3,7 +3,7 @@
 
 /**
  * _strlen - Returns the length of a string
- * #s: The string to get the length of.
+ * @s: The string to get the length of.
  *
  * Return: the length of a string.
  */
@@ -34,7 +34,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 	size = _strlen(str);
-	str2 = (char *)malloc(size * sizeof(char));
+	str2 = (char *)malloc((size + 1) * sizeof(char));
 	for (i = 0; i < size; i++)
 	{
 		str2[i] = str[i];
